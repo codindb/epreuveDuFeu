@@ -8,3 +8,9 @@
 - Press Enter ↲
 - See the magic stairway appear ✨
 
+## Majuscule
+
+- Run ```node majuscule.js "<a sentence here>"``` in your favorite terminal  
+(Example: node majuscule.js "Bien le bonjour madame la marquise.")
+- Press Enter ↲
+- Behold the great text transformation 🪄
