@@ -19,6 +19,13 @@
 
 - Pick a positive integer ⚠️ NOT TOO HIGH UNLESS YOU WANT TO CRASH YOUR COMPUTER ⚠️
 - Run ```node factoriel.js "<your chosen number>"``` in your favorite terminal  
-(Example: node factoriel.js 10")
+(Example: node factoriel.js 10)
 - Press Enter ↲
 - See the factorial value n❗️ of your number appear 🤩
+
+## Tri
+
+- Run ```node tri.js "<number1> <number2> ... <numberN>"``` in your favorite terminal  
+(Example: node tri.js 4 5 1 3 2)
+- Press Enter ↲
+- There you have it! Your numbers are sorted in descending order 👍
