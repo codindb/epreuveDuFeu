@@ -14,3 +14,11 @@
 (Example: node majuscule.js "Bien le bonjour madame la marquise.")
 - Press Enter ↲
 - Behold the great text transformation 🪄
+
+## Factoriel
+
+- Pick a positive integer ⚠️ NOT TOO HIGH UNLESS YOU WANT TO CRASH YOUR COMPUTER ⚠️
+- Run ```node factoriel.js "<your chosen number>"``` in your favorite terminal  
+(Example: node factoriel.js 10")
+- Press Enter ↲
+- See the factorial value n❗️ of your number appear 🤩
