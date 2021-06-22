@@ -8,8 +8,8 @@ const numberOfSteps = parseInt(args[0],10);
 if (numberOfSteps < 1) {
    console.log("Enter an argument greater or equal to 1");
 } else {
-   for(let i = numberOfSteps; i > 0; i--) {
-      console.log(" ".repeat(i-1) + "#".repeat(numberOfSteps-(i-1)));
+   for(let i = 1; i <= numberOfSteps; i++) {
+      console.log(" ".repeat(numberOfSteps-i) + "#".repeat(i));
    }
 }
 
