@@ -6,7 +6,6 @@ see https://nodejs.org/en/knowledge/command-line/how-to-parse-command-line-argum
 const fs = require('fs');
 const c1 = fs.readFileSync(`./${args[0]}`, 'utf8').split('\n');
 const c2 = fs.readFileSync(`./${args[1]}`, 'utf8').split('\n');
-let lineC1 = 0;
 
 const checkMatch = (line, column) => {
    for (let lineC1 = 0; lineC1< c1.length; lineC1++) {
