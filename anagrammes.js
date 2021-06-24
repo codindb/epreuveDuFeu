@@ -8,30 +8,15 @@ const file = fs.readFileSync(`./${args[1]}`, 'utf8').split('\n');
 
 
 const splitAndSort = (array) => {
-   return array.split("").sort();
-}
-
-const checkMatch = (stringComparedTo) => {
-   for (let i = 0; i < stringToCompare.length; i++) {
-      if (stringToCompare[i] !== stringComparedTo[i]) {
-         return false;
-      }
-   }
-   return true;
+   return array.split("").sort().join('');
 }
 
 let stringToCompare = splitAndSort(args[0]);
-let stringsFromFile = [];
 let anagrammes = [];
 
-
-for (let i = 0; i < file.length; i++){
-   stringsFromFile[i] = splitAndSort(file[i]);
-}
-
-for (let i = 0; i < stringsFromFile.length; i++) {
-   if (stringsFromFile[i].length === stringToCompare.length) {
-      if (checkMatch(stringsFromFile[i])) {
+for (let i = 0; i < file.length; i++) {
+   if (file[i].length === stringToCompare.length) {
+      if (splitAndSort(file[i]) === stringToCompare) {
          anagrammes.push(file[i]);
       }
    }
