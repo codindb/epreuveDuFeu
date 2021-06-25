@@ -29,3 +29,21 @@
 (Example: node tri.js 4 5 1 3 2)
 - Press Enter ↲
 - There you have it! Your numbers are sorted in descending order 👍
+
+## Rectangle
+
+- Run ```node rectangle.js c1.txt c2.txt``` in your favorite terminal  
+- Press Enter ↲
+- Congrats you found it !!! 👏 👏 👏
+
+## Anagrammes
+
+- Run ```node anagrammes.js arbre fr.txt``` in your favorite terminal  
+- Press Enter ↲
+- Yay, you found all the anagrams of the word 'arbre' in your fr.txt file❗️
+
+## Sudoku
+
+- Run ```node sudoku.js s.txt``` in your favorite terminal  
+- Press Enter ↲
+- WTF ⁉️ This is witchcraft 🤯
